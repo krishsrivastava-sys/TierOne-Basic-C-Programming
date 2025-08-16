@@ -13,15 +13,15 @@ which changes every second?
 int main() {
     srand(time(NULL)); // Seeding the rand function;
     int choice;
-    int randnum = rand() % 100 + 1;
+    int randnum = rand() % 10 + 1;
     // Question: Why not 101?
     // Answer: 0 would be included in the choice array. To remove it (shifting by one position) we include the + 1.
     printf("Welcome to the Guess-The-Number game!\nIf you guess the correct number, you win! Exciting?\nEnter the number now!\n");
-    printf("Enter your choice (1-100):");
+    printf("Enter your choice (1-10):");
     scanf("%d", &choice);
-    if (choice == randnum && (choice <= 100 && choice > 0)) {
+    if (choice == randnum && (choice <= 10 && choice > 0)) {
         printf("Congratulations! You won the game!\n");
-    } else if(!(choice <= 100 || choice > 0)) {
+    } else if(!(choice <= 10 || choice > 0)) {
         printf("Please enter a valid number.\n");
     } else {
         printf("Aww! You failed! Better luck next time.\n");
