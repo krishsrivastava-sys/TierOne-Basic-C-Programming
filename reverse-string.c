@@ -20,5 +20,5 @@ int main() {
     }
     revstr[size] = '\0';  // add null terminator, strlen doesn't count it;
     printf("The reversed string: %s\n", revstr);
-
+    return 0;
 }
