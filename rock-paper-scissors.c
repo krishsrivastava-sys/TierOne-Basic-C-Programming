@@ -10,6 +10,10 @@ Notes:
 - 0 => strings are exactly equal.
 - < 0 => first string is “less than” the second (in ASCII order).
 - > 0 => first string is “greater than” the second (in ASCII order).
+- We used the tolower() function that comes from the ctype lib.
+- We used the rand() and srand() function that come from stdlib
+- We also used time as a seed for the srand() function, setting the value to NULL so that the value isn't needed to be stored anywhere.
+
 
 
 - used a for loop here because the string is an array. can't go around like we did in Javascript ;-;
