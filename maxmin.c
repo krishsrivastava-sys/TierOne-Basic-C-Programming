@@ -21,4 +21,5 @@ int main() {
     }
     printf("The maximum value number is: %d\n", arrray[max]);
     printf("The minimum value number is: %d", arrray[min]);
+    return 0;
 }
