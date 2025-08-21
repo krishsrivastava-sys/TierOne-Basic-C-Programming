@@ -19,11 +19,7 @@ Goal: **Syntax + logic building + comfort with the language.**
 * Find max & min in an array.
 * Count vowels/consonants in a string.
 * Word frequency counter.
-* Binary ↔ Decimal converter.
-* ASCII art (print your name in big letters).
-* Leap year checker.
-* Armstrong number checker.
-* Multiplication table generator.
+* Binary ↔ Decimal converter
 * Matrix addition & subtraction.
 * Matrix multiplication.
 * Simple tic-tac-toe (2-player, console).
