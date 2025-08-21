@@ -6,7 +6,7 @@ int main() {
     printf("Choose what operations you wish to perform for matrices.\n1. Addition\n2. Subtraction\n3. Multiplication\nEnter: ");
     int choice;
     scanf("%d", &choice);
-    int mat[3][3];
+    int mat[3][3];// We've learnt 2D arrays boys!
     int mat2[3][3];
     if(choice != 1 && choice != 2 && choice != 3) {
         printf("{ERROR} Please Enter valid input values.");
