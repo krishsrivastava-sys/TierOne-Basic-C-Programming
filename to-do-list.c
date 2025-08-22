@@ -75,7 +75,7 @@ int main() {
             printf("Task \'%s\' added successfully!\n", input);
         } else if(choice == 3) {
             // Let's user input the task id.
-             int taskidby;
+            int taskidby;
             printf("Enter the task's id: ");
             scanf(" %d", &taskidby);
             if (mark_task_done(tasks, count, taskidby)) {
